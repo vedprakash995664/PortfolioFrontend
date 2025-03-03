@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Job Portal",
+    "link":"https://hospitalmanagementbyvedprakash.netlify.app/",
+    "image": "jobportal.png",
+    
+    "description": "I’m proud to introduce my latest project, the Job Portal, a platform designed to simplify the job search and recruitment process! With a clean, user-friendly interface, this platform connects recruiters with job seekers efficiently.\n\nKey Features:\n🔑 Two Separate Panels – One for recruiters and another for job seekers, each with a unique login.\n🏢 Recruiter Features – Recruiters can register their company, post job listings, and manage their job postings seamlessly.\n👩‍💻 Job Seeker Features – Job seekers can easily browse job listings and apply with just a click of the “Apply” button.\n📱 Responsive Design – Built using the MERN stack (MongoDB, Express.js, React, Node.js) for smooth performance across all devices.\n🔒 Secure Authentication – JWT (JSON Web Tokens) ensures secure login and user data protection.\n\n💡 This project is a step forward in creating a streamlined process for both recruiters and job seekers, enabling faster connections and better opportunities.\n\nExcited to continue improving and scaling this project with new features! Stay tuned!\n\n#JobPortal #MERNStack #JWT #WebDevelopment #TechInnovation #FullStackDevelopment #JobSeekers #Recruiters #CareerOpportunities #ResponsiveDesign #TechProjects #SecureLogin #JobSearch"
+  },
+  {
+    "id": 2,
+    "title": "CRM",
+    "image": "crm.png",
+    "link":"https://hospitalmanagementbyvedprakash.netlify.app/",
+    
+    "description":"🚀 Introducing Our Powerful CRM System with Multi-Admin Panels 🚀We’re thrilled to announce the launch of our CRM System built with the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring three distinct admin panels to manage users at different access levels.🔹 Employee Panel: Allows employees to manage their tasks and customer interactions.🔹 Admin Panel: Enables admins to manage employees, view detailed customer data, and generate reports.🔹 Super Admin Panel: Provides complete system control with the ability to create roles, manage permissions, and view all data.Key Features:Real-Time Data Updates using WebSockets.JWT Authentication with role-based access control.Responsive Design optimized for all devices.Seamless Integration between all panels using Redux Toolkit for efficient state management.With a user-friendly interface and powerful backend, our CRM system streamlines customer and employee management for businesses of all sizes. Ready to transform your customer relationships? Let’s talk!#CRM #MERNStack #TechInnovation #BusinessGrowth #StateManagement #ReduxToolkit #WebDevelopment #EmployeeManagement #AdminTools #SuperAdmin #RealTimeUpdates"
+  },
+  {
+    "id": 3,
+    "title": "ADVOQUE (A project for Dubai Client)",
+    "image": "dubaiproject.png",
+    
+    "link":"https://hospitalmanagementbyvedprakash.netlify.app/",
+    "description":"🌟 Transforming Brands with Social Media & Digital Marketing Solutions 🌟We're thrilled to introduce the frontend of our Company Website, offering top-tier services in Social Media Management, Digital Marketing, Photography, Videography, and much more!Our expert team helps businesses grow, engage with their audience, and create powerful digital experiences that drive results.💡 What We Offer:Social Media Management: Engaging, strategic, and consistent content across platforms.Digital Marketing: Data-driven strategies to elevate brand visibility and drive traffic.Photography & Videography: Stunning visuals and compelling videos that tell your brand’s story.Brand Strategy & Consulting: Customized solutions to align your brand with the market.With a focus on creativity and performance, we help brands stand out and succeed in the digital space.🚀 Let’s work together to take your brand to new heights!#SocialMediaManagement #DigitalMarketing #BrandStrategy #Photography #Videography #ContentCreation #WebDesign #CreativeAgency #DigitalTransformation #MarketingSolutions"
+  },
+  {
+    "id": 4,
+    "link":"https://hospitalmanagementbyvedprakash.netlify.app/",
+    "title": "Cab Booking Service",
+    "image": "cab.png",
+    
+    "description":"🚖 Introducing Our Cab Booking System 🚖We are excited to present our innovative Cab Booking System designed to provide a seamless, user-friendlyexperience for both passengers and drivers. Whether you're heading to work, traveling to the airport, or exploring the city, our platform ensures quick, reliable, and efficient transportation at your fingertips.Key Features:Instant Booking: Book a cab in just a few clicks.Real-time Tracking: Track your ride in real-time for ultimate convenience.Secure Payments: Multiple payment options for easy and secure transactions.Driver & Vehicle Details: Know your driver and vehicle before your ride begins.24/7 Availability: Our service is available anytime, anywhere.By combining cutting-edge technology with customer-centric design, our Cab Booking System ensures comfort,safety, and peace of mind, making every ride a smooth experience.#CabBooking #TechInnovation #SmartTransportation #CustomerExperience #RideWithEase"
+  },
+ 
+  {
+    "id": 5,
+    "title": "Admin Panel",
+    "image": "adminpanel.png",
+    
+    "link":"https://hospitalmanagementbyvedprakash.netlify.app/",
+    "description":"🚀 Project Admin Panel – Built with HTML, CSS, Bootstrap, and JavaScript 🚀We’re excited to showcase our Admin Panel designed with a clean, intuitive UI, built using HTML, CSS, Bootstrap, and JavaScript. This project aims to provide a responsive and user-friendly interface for managing and monitoring key project data.Key Features:Responsive Design: Optimized for all devices using Bootstrap.User-Friendly Interface: Clean, modern layout with intuitive navigation.Interactive Elements: Dynamic charts, tables, and real-time updates powered by JavaScript.Customizable Dashboards: Easy to configure sections for tracking key project metrics.Whether you’re managing a small team or a large-scale project, this admin panel provides all the necessary tools to keep things running smoothly. It's built to enhance productivity, improve workflow, and streamline administrative tasks!#AdminPanel #WebDevelopment #HTML #CSS #Bootstrap #JavaScript #ResponsiveDesign #ProjectManagement #TechInnovation #UIUX #WebDesign"
+  },
+
+  {
+    "id": 6,
+    "title": "Hospital Management System",
+    "image": "hms.png",
+    
+    "description":"🚀 Hospital Management System (HMS) - Frontend 🚀I'm excited to present my Hospital Management System (HMS) frontend! This platform is designed to make managing hospital services easy and efficient.Key Features:🔑 Login & Signup Pages – Secure user login and signup forms with jQuery-based validation (email, password, etc.).🏥 OPD Booking System – Patients can easily book appointments with doctors through an intuitive booking system.✅ Real-time Form Validation – User inputs are validated using jQuery for error-free submissions.📱 Responsive Design – Ensuring accessibility and smooth performance across all devices.This project will help streamline hospital operations and provide a seamless experience for both patients and staff.Stay tuned for more features, including backend integration! 🙌#HMS #FrontendDevelopment #jQuery #WebDesign #HospitalManagement #TechInnovation #ResponsiveDesign #WebDevelopment #HealthcareTech #PatientCare",
+    "link":"https://hospitalmanagementbyvedprakash.netlify.app/"
+  }
+]

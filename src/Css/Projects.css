@@ -12,6 +12,7 @@
 .div1project{  
     margin-top: 10px;
     height: 200px;
+    cursor: pointer;
     width: 280px;
     /* border:  2px solid white; */
     border-radius: 15px;
@@ -25,23 +26,17 @@
         transition: .4s;
     }
 }
-#div1project{
-    /* background-image: url(project1.png); */
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
+.m{
+    height: 192px;
+    border-radius: 10px;
 }
-#div2project{
-    background-image: url(project1.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-}
-#div3project{
-    background-image: url(project1.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
+.descriptionProject{
+    height: 200px;
+    width: 100%;
+    /* background-color: #B415FF; */
+    padding: 20px;
+    color: black;
+    overflow: auto;
 }
 .projectbtn{
     height: 50px;

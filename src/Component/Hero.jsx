@@ -28,7 +28,7 @@ function Hero() {
                                 showCursor={true}
                                 cursorChar="|"
                             /></span><br />
-                        <span className="txtt">I am a Full Stack developer. Currently I am working at DigiCoders Technologies Pvt. Ltd. Lucknow as Junior Developer .</span><br /><br />
+                        <span className="txtt">I am a Full Stack developer. Currently I am working at DigiCoders Technologies Pvt. Ltd. Lucknow as Web Developer .</span><br /><br />
                         <button>My Resume</button>
                     </div>
 

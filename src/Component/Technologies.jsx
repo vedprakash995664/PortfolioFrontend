@@ -10,52 +10,54 @@ function Technologies() {
             <Row>
                 <Col sm={1}></Col>
                 <Col className="technology">
+
                     <div className="Technologylogos">
                         <img src="image.png" className="img-fluid" alt="" />
-                        
+
                     </div>
                     <div className="Technologylogos">
-                        <img src="express.png" className="img-fluid" alt="" />
-                        
+                        <img src="ex.png" className="img-fluid" alt="" />
+
                     </div>
                     <div className="Technologylogos">
                         <img src="react.png" className="img-fluid" alt="" />
                     </div>
                     <div className="Technologylogos">
                         <img src="nodejs.svg" className="img-fluid" alt="" />
-                        
+
+                    </div>
+                    <div className="Technologylogos">
+                        <img src="jawascript.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="Technologylogos">
                         <img src="php.png" className="img-fluid" alt="" />
-                        
+
                     </div>
                     <div className="Technologylogos">
-                        <img src="mysql.png" className="img-fluid" alt="" style={{borderRadius:"50%"}}/>
-                        
+                        <img src="mysql.png" className="img-fluid" alt="" style={{ borderRadius: "50%" }} />
+
                     </div>
                     <div className="Technologylogos">
                         <img src="laravell.jpg" className="img-fluid" alt="" />
-                        
+
                     </div>
+
+
                     <div className="Technologylogos">
                         <img src="c.png" className="img-fluid" alt="" />
-                        
+
+                    </div>
+                    <div className="Technologylogos">
+                        <img src="github.jpg" className="img-fluid" alt="" />
+                    </div>
+
+                    <div className="Technologylogos">
+                        <img src="python.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="Technologylogos">
                         <img src="reactNative.jpg" className="img-fluid" alt="" />
                     </div>
 
-                    <div className="Technologylogos">
-                        <img src="reactNative.jpg" className="img-fluid" alt="" />
-                    </div>
-
-                    <div className="Technologylogos">
-                        <img src="reactNative.jpg" className="img-fluid" alt="" />
-                    </div>
-
-                    <div className="Technologylogos">
-                        <img src="reactNative.jpg" className="img-fluid" alt="" />
-                    </div>
                 </Col>
                 <Col sm={1}></Col>
             </Row>

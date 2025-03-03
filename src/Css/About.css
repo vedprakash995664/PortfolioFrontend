@@ -4,6 +4,19 @@
     height: 40px;
 
 }
+.vedPhoto{
+    /* background-image: url('vedprakash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: .8; */
+}
+.award{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    -webkit-text-fill-color: transparent;   
+}
 .skill {
     display: flex;
     gap: 30px;

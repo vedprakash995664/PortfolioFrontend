@@ -56,15 +56,15 @@ function Contacts() {
         <>
             <Container>
                 <br /><br />
-                <center><h1 className="headprojects">Latest Project</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
+                <center><h1 className="headprojects">Contact Me</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
                 <Row>
                     <Col sm={1}></Col>
                     <Col sm={5}>
                         <span className="lets">Let's Talk</span><br /><br />
                         <span>I'm currently available to take on new projects, so feel <br /> free to send me a message about anything that you want me to <br /> work on. You can contact anytime.</span><br /><br />
-                        <span>vedprakash995664@gmail.com</span><br /><br />
-                        <span>+91 63072-75065</span><br /><br />
-                        <span>Prayagraj, Uttar Pradesh</span>
+                        <span> <i class="bi bi-envelope-at-fill"></i> vedprakash995664@gmail.com</span><br /><br />
+                        <span> <i class="bi bi-telephone-inbound-fill"></i> +91 63072-75065</span><br /><br />
+                        <span><i class="bi bi-geo-alt-fill"></i> Prayagraj, Uttar Pradesh</span>
                     </Col>
                     <Col sm={5}>
                         <Form onSubmit={handleSubmit}>

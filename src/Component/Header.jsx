@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../Css/Header.css';
-
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   
@@ -28,8 +27,12 @@ function Header() {
               <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
             </ul>
           </nav>
-          <div className='btn'><button>Get In Touch</button></div>
+          <div className='btn'> 
+          <a href="https://wa.me/916307275065" target="_blank"><img src="whats.jpg" alt="WhatsApp"/></a>
+          <a href="https://www.linkedin.com/in/ved-prakash-93436518a/"><img src="link.png" alt=""/></a>
+         <a href="https://github.com/vedprakash995664"><img src="github.jpg" alt=""/></a> 
           <div className='modes'><i class="bi bi-brightness-high-fill"></i></div>
+          </div>
         </div>
       </div>
     </header>
