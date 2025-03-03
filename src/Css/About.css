@@ -1,0 +1,24 @@
+.imgabout{
+    position: absolute;
+    bottom: 30px;  
+    height: 40px;
+
+}
+.skill {
+    display: flex;
+    gap: 30px;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    -webkit-text-fill-color: transparent;
+}
+
+@media(max-width:480px){
+    .skill{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1;
+    }
+}

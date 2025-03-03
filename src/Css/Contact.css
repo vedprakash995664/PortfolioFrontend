@@ -1,0 +1,31 @@
+.namecontact{
+background-color: #32323C;
+height: 60px;
+border: none;
+}
+.emailcontact{
+    background-color: #32323C;
+height: 60px;
+border: none;
+}
+
+.lets{
+    font-size: 50px;
+    font-weight: bolder;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Focused input and textarea */
+.namecontact:focus,
+.emailcontact:focus,
+.floatingTextarea2 .form-control:focus {
+    background-color: #32323C !important; 
+    box-shadow: none; 
+    border-color: #B415FF;
+    border: 1px solid #B415FF;
+    color: white;
+}
