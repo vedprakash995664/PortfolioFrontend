@@ -9,11 +9,10 @@ function Projects() {
             <Container><br /><br />
                 <center><h1 className="headprojects">Latest Project</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
                 <Row>
-                    {/* <Col sm={1}></Col> */}
                     <Col>
 
                         <center><div className="div1project" id="div1project">
-                            {/* <img src="project1.png" alt="" className="img-fluid m" /> */}
+                            <img src="project1.png" alt="" className="img-fluid m"/>
                         </div>
                         </center>
                     </Col>
