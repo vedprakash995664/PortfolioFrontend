@@ -54,7 +54,7 @@ function Contacts() {
 
     return (
         <>
-            <Container>
+            <Container id="contact-section">
                 <br /><br />
                 <center><h1 className="headprojects">Contact Me</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
                 <Row>
@@ -67,7 +67,7 @@ function Contacts() {
                         <span><i class="bi bi-geo-alt-fill"></i> Prayagraj, Uttar Pradesh</span>
                     </Col>
                     <Col sm={5}>
-                        <Form onSubmit={handleSubmit}>
+                        <Form onSubmit={handleSubmit}><br />
                             <Form.Label htmlFor="inputName">Your Name</Form.Label>
                             <Form.Control
                                 type="text"
@@ -85,7 +85,7 @@ function Contacts() {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
-                            />
+                            /> <br />
                             <Form.Label htmlFor="inputMessage">Write Your Message here</Form.Label>
                             <FloatingLabel controlId="floatingTextarea2">
                                 <Form.Control

@@ -56,7 +56,7 @@ function Projects() {
 
     return (
         <>
-            <Container><br /><br />
+            <Container id="project-section"><br /><br />
                 <center><h1 className="headprojects">Latest Projects</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
 
                 <Row>

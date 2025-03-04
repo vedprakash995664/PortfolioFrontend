@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 function About() {
     return (
-        <Container>
+        <Container id="about-section">
             <center><h1 className="headabout">About Me</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
             <Row>
                 <Col sm={1}></Col>
