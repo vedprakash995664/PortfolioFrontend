@@ -8,6 +8,16 @@ border: none;
 height: 60px;
 border: none;
 }
+.social-links{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 26px;
+}
+.social-links img{
+        border-radius: 50%;
+        height: 40px;
+}
 
 .lets{
     font-size: 50px;
@@ -17,9 +27,10 @@ border: none;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.contact-text{
+    margin-top: 100px;
+}
 
-
-/* Focused input and textarea */
 .namecontact:focus,
 .emailcontact:focus,
 .floatingTextarea2 .form-control:focus {
@@ -28,4 +39,10 @@ border: none;
     border-color: #B415FF;
     border: 1px solid #B415FF;
     color: white;
+}
+
+@media(max-width:520px){
+    .contact-text{
+        margin-top: 0px;
+    }
 }

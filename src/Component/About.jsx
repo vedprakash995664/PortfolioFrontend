@@ -11,7 +11,7 @@ function About() {
                 <Col sm={1}></Col>
                 <Col className="vedPhoto">
                     <p style={{ textAlign: "justify", }} className="pt-5">
-                    Hello! <b className="award"> I’m Ved Prakash,</b> a passionate and skilled Web Developer with a strong foundation in Computer Science and Engineering. I hold a Diploma in Computer Science and Engineering from MJP Government Polytechnic Kaushambi and am currently pursuing a B.Tech in Computer Science from AKTU.
+                    Hello! <b className="award"> I’m Ved Prakash,</b> a passionate and skilled Web Developer with a strong foundation in Computer Science and Engineering. I hold a Diploma in Computer Science and Engineering from MJP Government Polytechnic Kaushambi and I am currently pursuing  B.Tech in Computer Science from AKTU.
                     </p>
                     <p style={{ textAlign: "justify", }}>
                     My journey in the tech world began with an intense focus on web development, where I honed my skills through various training and internships. I started with a 45-day UI training at Kamadgiri Software Solutions Pvt. Ltd. Chitrakoot, where I was honored with a <b className="award">"Star Performance Award"</b>  for my dedication and skills. Following that, I completed a 2-month summer training in Core Python Programming at Tcybill Technologies Pvt. Ltd. Prayagraj, where I received the <b className="award">"Best Performance Award"</b>  for my contributions.

@@ -8,7 +8,7 @@ import axios from 'axios';
 import '../Css/Projects.css';
 
 function Projects() {
-    const [projects, setProjects] = useState([]);  // All projects
+    const [projects, setProjects] = useState([]); 
     const [visibleProjects, setVisibleProjects] = useState([]);  // Initially visible projects
     const [showModal, setShowModal] = useState(false);
     const [modalContent, setModalContent] = useState({ image: '', title: '', description: '', video: '', link: '' }); 
@@ -17,41 +17,41 @@ function Projects() {
         const fetchProjects = async () => {
             try {
                 const response = await axios.get('projects.json'); // Fetching the projects data from JSON (or API)
-                setProjects(response.data); // Set the projects data to state
+                setProjects(response.data); 
                 setVisibleProjects(response.data.slice(0, 3)); // Show only the first 3 projects initially
             } catch (error) {
                 console.error("There was an error fetching the projects!", error);
             }
         };
-        fetchProjects(); // Call the function when the component mounts
+        fetchProjects(); 
     }, []);
 
-    // Handle image click to open modal with video and dynamic content
+    
     const handleImageClick = (project) => {
         setModalContent({
             image: project.image, 
             title: project.title, 
             description: project.description,
-            video: project.video, // Assuming the project data has a video link
-            link: project.link // Assuming project data has a link field
+            video: project.video, 
+            link: project.link 
         });
         setShowModal(true); 
     };
 
-    // Handle modal close
+    
     const handleCloseModal = () => {
         setShowModal(false);
         setModalContent({ image: '', title: '', description: '', video: '', link: '' }); 
     };
 
-    // Handle "More" button click to show all projects
+    
     const handleShowMore = () => {
-        setVisibleProjects(projects); // Show all the projects
+        setVisibleProjects(projects); 
     };
 
-    // Handle "Less" button click to show only the first 3 projects
+    
     const handleShowLess = () => {
-        setVisibleProjects(projects.slice(0, 3)); // Show only the first 3 projects
+        setVisibleProjects(projects.slice(0, 3)); 
     };
 
     return (
@@ -61,14 +61,14 @@ function Projects() {
 
                 <Row>
                     {visibleProjects.map((project, index) => (
-                        <Col key={project.id} sm={4}> {/* Change sm={4} based on how many columns you want */}
+                        <Col key={project.id} sm={4}> 
                             <center>
                                 <div className="div1project" id={`div${index + 1}project`}>
                                     <img
-                                        src={project.image} // Image URL fetched from API
+                                        src={project.image} 
                                         alt={project.title}
                                         className="img-fluid m"
-                                        onClick={() => handleImageClick(project)} // Pass the entire project to handleImageClick
+                                        onClick={() => handleImageClick(project)} 
                                     />
                                 </div>
                             </center>
@@ -77,7 +77,7 @@ function Projects() {
                 </Row>
 
                 <br />
-                {/* Show "More" button only if there are more projects */}
+                
                 {visibleProjects.length < projects.length && (
                     <Row>
                         <center>
@@ -86,7 +86,7 @@ function Projects() {
                     </Row>
                 )}
 
-                {/* Show "Less" button only if more than 3 projects are visible */}
+                
                 {visibleProjects.length > 3 && (
                     <Row>
                         <center>
@@ -106,7 +106,7 @@ function Projects() {
             alignItems: "center", 
             justifyContent: "space-between",
             padding:"0px 30px" ,
-            width: '100%' // Ensures the space is distributed properly across the full width
+            width: '100%'
         }}
     >
         <span>{modalContent.title}</span> {/* Title */}

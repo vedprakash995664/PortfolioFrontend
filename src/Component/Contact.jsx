@@ -16,6 +16,7 @@ function Contacts() {
         name: '',
         email: '',
         message: '',
+        number:''
     });
 
     // Loading state to show spinner while submitting form
@@ -34,14 +35,17 @@ function Contacts() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
+        console.log(formData);
+        
         try {
             const response = await axios.post('https://portfoliobackend-sgvk.onrender.com/api/submit', formData);
             // Success toast
             toast.success('Your message has been sent successfully!', { position: "top-center" });
             setFormData({
-                name:"",
-                email:"",
-                message:""
+                name: "",
+                email: "",
+                message: "",
+                number:"",
             })
         } catch (error) {
             // Error toast
@@ -59,12 +63,25 @@ function Contacts() {
                 <center><h1 className="headprojects">Contact Me</h1> <hr style={{ borderWidth: "3px", color: "#B415FF" }} /></center>
                 <Row>
                     <Col sm={1}></Col>
-                    <Col sm={5}>
+                    <Col sm={5} className="contact-text">
                         <span className="lets">Let's Talk</span><br /><br />
-                        <span>I'm currently available to take on new projects, so feel <br /> free to send me a message about anything that you want me to <br /> work on. You can contact anytime.</span><br /><br />
+                        <span>I'm excited to take on new projects!  Let's collaborate on something amazing.  Message me anytime with your ideas – I'm here to help bring your vision to life. No project is too big or too small. Let's create something extraordinary together!
+                        </span><br /><br />
                         <span> <i class="bi bi-envelope-at-fill"></i> vedprakash995664@gmail.com</span><br /><br />
                         <span> <i class="bi bi-telephone-inbound-fill"></i> +91 63072-75065</span><br /><br />
                         <span><i class="bi bi-geo-alt-fill"></i> Prayagraj, Uttar Pradesh</span>
+                        <div className="social-links">
+                            <a href="https://wa.me/916307275065" target="_blank" rel="noopener noreferrer">
+                                <img src="whats.jpg" alt="WhatsApp" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/ved-prakash-93436518a/">
+                                <img src="link.png" alt="LinkedIn" />
+                            </a>
+                            <a href="https://github.com/vedprakash995664">
+                                <img src="github.jpg" alt="GitHub" />
+                            </a>
+
+                        </div>
                     </Col>
                     <Col sm={5}>
                         <Form onSubmit={handleSubmit}><br />
@@ -75,6 +92,15 @@ function Contacts() {
                                 className="namecontact"
                                 name="name"
                                 value={formData.name}
+                                onChange={handleChange}
+                            /> <br />
+                            <Form.Label htmlFor="inputEmail">Your Number</Form.Label>
+                            <Form.Control
+                                type="number"
+                                id="txt"
+                                className="emailcontact"
+                                name="number"
+                                value={formData.number}
                                 onChange={handleChange}
                             /> <br />
                             <Form.Label htmlFor="inputEmail">Your Email</Form.Label>

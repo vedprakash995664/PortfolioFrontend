@@ -59,6 +59,7 @@ body.dark-theme {
     border-radius: 50%;
     background-color: #F7BE23;
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
 }
