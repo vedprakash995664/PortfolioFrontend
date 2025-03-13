@@ -16,7 +16,7 @@ export default function ManageUser() {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const response = await axios.get(`http://localhost:4000/api/getall`);
+                const response = await axios.get(`https://portfoliobackend-sgvk.onrender.com/api/getall`);
                 if (Array.isArray(response.data.formData)) {
                     setEmployees(response.data.formData);
                 } else {
@@ -88,7 +88,7 @@ export default function ManageUser() {
         
         try {
             if (rowData && rowData._id) {
-                await axios.delete(`http://localhost:4000/api/delete/${rowData._id}`);
+                await axios.delete(`https://portfoliobackend-sgvk.onrender.com/api/delete/${rowData._id}`);
                 setEmployees(employees.filter((user) => user.id !== rowData.id));
                 toast.current?.show({
                     severity: "success",

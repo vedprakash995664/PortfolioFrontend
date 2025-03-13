@@ -24,7 +24,7 @@ const Login = () => {
     const formData = { userName, password };
     try {
       setLoading(true); // Start loading
-      const response = await axios.post(`http://localhost:4000/admin/login`, formData);
+      const response = await axios.post(`https://portfoliobackend-sgvk.onrender.com/admin/login`, formData);
 
       if (response.data) {
         toast.success("Logged in successfully!");
@@ -101,10 +101,10 @@ const Login = () => {
           <button 
             type="submit" 
             className="submit-btn" 
-            disabled={loading} // Disable button while loading
+            disabled={loading}
           >
             {loading ? (
-              <div className="spinner"></div> // Spinner shows while loading
+              <div className="spinner"></div> 
             ) : (
               "Login"
             )}

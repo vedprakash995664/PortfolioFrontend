@@ -11,7 +11,6 @@ const AdminPanel = ({ children, active }) => {
   const toggleSidebar = () => {
     setSidebarActive(!sidebarActive);
   };
-
   const handlelogout = () => {
     Swal.fire({
       title: 'Are you sure ?',
