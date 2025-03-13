@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../Admin/AdminPanel.css";
 import { ToastContainer } from "react-toastify";
 import { Link, useNavigate } from "react-router-dom";
-
+import Swal from 'sweetalert2'; 
 const AdminPanel = ({ children, active }) => {
   const [sidebarActive, setSidebarActive] = useState(false);
   const user = "Ved Prakash"; 
@@ -39,10 +39,10 @@ const AdminPanel = ({ children, active }) => {
   };
 
   useEffect(() => {
-    // const tokenId = sessionStorage.getItem('Token');
-    // if (!tokenId) {
-    //   navigate('/');
-    // }
+    const tokenId = sessionStorage.getItem('Token');
+    if (!tokenId) {
+      navigate('/');
+    }
   }, [navigate]);
 
   return (
@@ -51,7 +51,7 @@ const AdminPanel = ({ children, active }) => {
       <div className="sidebar-logo"><b>PORTFOLIO</b></div>
         <div className="navigation">
           <ul className="sidebar-nav-links">
-            <Link className="navigation-link" to="/admin">
+            <Link className="navigation-link" to="/admindashboard">
               <li>
                 <button className={`sidebar-link ${active === 'dashboard' && 'active'}`}>
                   <i className="ri-dashboard-horizontal-fill"></i> &nbsp;Dashboard

@@ -149,7 +149,7 @@ export default function ManageUser() {
                     dataKey="id"
                     filters={filters}
                     filterDisplay="row"
-                    globalFilterFields={["name", "email", "mobile", "message"]}
+                    globalFilterFields={["name", "email", "number", "message"]}
                     header={renderHeader()}
                     emptyMessage="No users found."
                     onPage={onPageChange}
@@ -169,7 +169,7 @@ export default function ManageUser() {
                     />
                     <Column field="name" header="NAME" sortable style={{ width: "20%",textAlign: "center"  }} />
                     <Column field="email" header="EMAIL" sortable style={{ width: "10%",textAlign: "center"  }} />
-                    <Column field="mobile" header="MOBILE" sortable style={{ width: "5%" }} />
+                    <Column field="number" header="MOBILE" sortable style={{ width: "5%" }} />
                     <Column
                         field="message"
                         header="Message"
