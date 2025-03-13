@@ -34,7 +34,7 @@ function Services(){
                     <Col>
                        <center> <div className="div1">
                        <h4>03</h4>
-                            <h2>Software Product</h2>
+                       <h2>Software</h2>
                            <h1>5+</h1>
                             <h6>Software Product create by me. Like CRM, Billing Software and many more.</h6>
 

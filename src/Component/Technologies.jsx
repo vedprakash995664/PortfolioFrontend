@@ -31,24 +31,13 @@ function Technologies() {
                     </div>
                     <div className="Technologylogos">
                         <img src="php.png" className="img-fluid" alt="" />
-
                     </div>
+
                     <div className="Technologylogos">
                         <img src="mysql.png" className="img-fluid" alt="" style={{ borderRadius: "50%" }} />
-
                     </div>
                     <div className="Technologylogos">
                         <img src="laravell.jpg" className="img-fluid" alt="" />
-
-                    </div>
-
-
-                    <div className="Technologylogos">
-                        <img src="c.png" className="img-fluid" alt="" />
-
-                    </div>
-                    <div className="Technologylogos">
-                        <img src="github.jpg" className="img-fluid" alt="" />
                     </div>
 
                     <div className="Technologylogos">
@@ -57,6 +46,14 @@ function Technologies() {
                     <div className="Technologylogos">
                         <img src="reactNative.jpg" className="img-fluid" alt="" />
                     </div>
+                    <div className="Technologylogos">
+                        <img src="c.png" className="img-fluid" alt="" />
+                    </div>
+                    <div className="Technologylogos">
+                        <img src="github.jpg" className="img-fluid" alt="" />
+                    </div>
+
+            
 
                 </Col>
                 <Col sm={1}></Col>
