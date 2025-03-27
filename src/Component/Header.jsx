@@ -49,11 +49,11 @@ function Header() {
           <nav className={`navbar ${isNavOpen ? 'active' : ''} ${isDarkMode ? 'dark-mode-navbar' : ''}`}>
 
             <ul className="nav-menu">
-              <li className="nav-item"><a href="#nav-section"  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Home</a></li>
-              <li className="nav-item"><a href="#about-section"  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>About Me</a></li>
-              <li className="nav-item"><a href="#services-section"  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Services</a></li>
-              <li className="nav-item"><a href="#project-section"  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Project</a></li>
-              <li className="nav-item"><a href="#contact-section" className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Contact</a></li>
+              <li className="nav-item"><a href="#nav-section" onClick={()=>setIsNavOpen(!isNavOpen)}  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Home</a></li>
+              <li className="nav-item" ><a href="#about-section" onClick={()=>setIsNavOpen(!isNavOpen)}  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>About Me</a></li>
+              <li className="nav-item"><a href="#services-section" onClick={()=>setIsNavOpen(!isNavOpen)}   className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Services</a></li>
+              <li className="nav-item"><a href="#project-section"  onClick={()=>setIsNavOpen(!isNavOpen)}  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Project</a></li>
+              <li className="nav-item"><a href="#contact-section" onClick={()=>setIsNavOpen(!isNavOpen)}  className={`${isDarkMode ? 'navlinkdark' : 'nav-link'}`}>Contact</a></li>
             </ul>
           </nav>
           <div className="modes" onClick={toggleTheme}>
