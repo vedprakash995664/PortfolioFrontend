@@ -37,7 +37,7 @@ function Header() {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <img src="vedlogo.png" alt="" className="img-fluid" />
+            <img src="vedprakash_logo_digicoders.png" alt="" className="img-fluid" />
           </div>
 
           <button className="toggle-button" onClick={toggleNav}>

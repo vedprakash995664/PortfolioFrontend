@@ -19,7 +19,7 @@ function Hero() {
             <Row>
                 <Col sm={4}>
                     <div className="imgouter">
-                        <img src="Ved.png" alt="Ved Prakash" className="img-fluid imgg" loading="lazy"/>
+                        <img src="vedprakash_digicoder.png" alt="Ved Prakash" className="img-fluid imgg" loading="lazy"/>
                     </div>
                 </Col>
                 <Col sm={1}></Col>
