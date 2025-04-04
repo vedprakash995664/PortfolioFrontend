@@ -52,7 +52,7 @@ function Hero() {
                 </Modal.Header>
                 <Modal.Body>
                     <embed
-                        src="VedPrakash_MernStack_Developer_F.pdf"
+                        src="VedPrakash_WebDeveloper.pdf"
                         type="application/pdf"
                         width="100%"
                         height="500px"
